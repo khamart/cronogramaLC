@@ -68,3 +68,4 @@ document.getElementById('rota_type').addEventListener('keyup', filter)
 document.getElementById('reset_button').addEventListener('click', () => {
     setTimeout(filter, 500)
 })
+filter()

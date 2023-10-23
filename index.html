@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cronograma LC</title>
+</head>
+<body>
+    <h1 class="pagename">Cronograma LC</h1>
+    <div>
+        <img src="imgs/Mapa_STIHL.png" alt="Mapa STIHL" class="mapa">
+        <canvas id="canvas" class="canvas" width="1200" height="925"></canvas>
+    </div>
+    <form class="filtros">
+        <input type="text" class="predios" id="predio_type" placeholder="Prédio...">
+        <input type="text" class="salas" id="sala_type" placeholder="Sala...">
+        <input type="text" class="turnos" id="turno_type" placeholder="Turno...">
+        <input type="text" class="rotas" id="rota_type" placeholder="Rota...">
+        <input type="reset" class="reset" id="reset_button" value="Limpar Filtros">
+    </form>
+    <div id="table-wrapper">
+        <div id="table-scroll">
+            <table id="cronograma" CELLSPACING=0>
+                <tr class="linha_cabecalho">
+                    <th class="cabecalho">Prédio</th>
+                    <th class="cabecalho sala">Sala</th>
+                    <th class="cabecalho">Turno</th>
+                    <th class="cabecalho">Rota</th>
+                    <th class="cabecalho">Dom</th>
+                    <th class="cabecalho">Seg</th>
+                    <th class="cabecalho">Ter</th>
+                    <th class="cabecalho">Qua</th>
+                    <th class="cabecalho">Qui</th>
+                    <th class="cabecalho">Sex</th>
+                    <th class="cabecalho">Sáb</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="js/cronograma.js"></script>
+    <script src="js/predios.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

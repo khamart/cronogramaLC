@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=IBM+Plex+Sans:wght@300;400&display=swap');
+
+.pagename {
+    font-family: 'Archivo Black', sans-serif;
+}
+
+body {
+    background-color: rgb(237,237,237);
+}
+
+.mapa {
+    margin-top: 45px;
+}
+
+.pagename {
+    margin: 20px 0px 0px 50px;
+    font-size: 40px;
+}
+
+.filtros {
+    padding: 0;
+    position: absolute;
+    left: 748px;
+    top: 53px;
+}
+
+.turnos {
+    padding: 0;
+    width: 65px;
+    height: 20px;
+}
+
+.rotas {
+    padding: 0;
+    width: 60px;
+    height: 20px;
+}
+
+.predios {
+    padding: 0;
+    width: 63px;
+    height: 20px;
+}
+
+.salas {
+    padding: 0;
+    width: 515px;
+    height: 20px;
+}
+
+.tabela {
+    position: absolute;
+    left: 750px;
+    top: 80px;
+}
+
+.cabecalho {
+    height: 20px;
+    border: 1px solid grey;
+    padding: 0 10px;
+}
+
+.sala {
+    width: 500px;
+}
+
+.linha_cabecalho {
+    background-color: rgb(255,70,10);
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+.linha {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.cell {
+    border: 1px solid grey;
+}
+
+.day {
+    text-align: center;
+}
+
+.canvas {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.hide {
+    display: none;
+}
+
+#table-wrapper {
+    position: absolute;
+    left: 750px;
+    top: 80px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
+  }
+  #table-scroll {
+    height:650px;
+    overflow:auto;  
+    margin-top:0px;
+  }
+  #table-wrapper table {
+    width:100%;
+  }
+  #table-wrapper table thead th .text {
+    position:absolute;   
+    top:-20px;
+    z-index:2;
+    height:20px;
+    width:35%;
+  }
+
+  .reset {
+    background-color: lightgray;
+    transition-duration: 0.4s;
+  }
+  
+  .reset:hover {
+    background-color: #FF0000; /* Green */
+    color: white;
+  }

@@ -1,11 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=IBM+Plex+Sans:wght@300;400&display=swap');
 
 .pagename {
-    font-family: 'Archivo Black', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
 }
 
 body {
     background-color: rgb(237,237,237);
+}
+
+.manserv {
+    position: absolute;
+    left: 1600px;
+    top: 10px;
+}
+
+.manserv_logo {
+    width: 250px;
+    height: auto;
 }
 
 .mapa {
@@ -13,8 +25,9 @@ body {
 }
 
 .pagename {
-    margin: 20px 0px 0px 50px;
-    font-size: 40px;
+    margin: 20px 0px 7px 50px;
+    font-size: 34px;
+    font-weight: 300;
 }
 
 .filtros {
@@ -124,6 +137,21 @@ body {
   }
   
   .reset:hover {
-    background-color: #FF0000; /* Green */
+    background-color: #FF460A; /* Green */
     color: white;
+  }
+
+  .horarios {
+    position: absolute;
+    display: flex;
+    left: 950px;
+    top: 720px;
+    gap: 50px;
+  }
+
+  .horarios_turno {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #FF460A;
   }

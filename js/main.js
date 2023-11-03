@@ -1,6 +1,6 @@
 const canvas = document.getElementById('canvas')
 const ctx = canvas.getContext('2d')
-ctx.strokeStyle = '#FF0000'
+ctx.strokeStyle = '#FF460A'
 ctx.lineWidth = 5;
 
 function filter(){
